@@ -99,7 +99,7 @@ a,
 
 /* === Typography === */
 
-h1, h2, h3, h4, h5, h6{
+ h2, h3, h4, h5, h6{
     font-weight: 700;
     margin:0;
     text-transform: uppercase;
@@ -278,7 +278,7 @@ ul.list-check li{
 ul.list-check li::before {
     content: "\f00c";
     font-family: fontawesome;
-    color: #112b66;
+    color: #3055bd;
     margin-right: 10px;
 }
 
@@ -323,17 +323,17 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/home2.jpg) no-repeat center center;
+	background: url(../images/main_banner.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
-	background-color: #222;
+	background-color: #949494;
 	background-size: cover;
 	padding: 0;
 	position: relative;
 }
 #home:before {
 	content: "";
-	background-color: rgba(26, 30, 35, 0.85);
+	background-color: rgb(38 40 42 / 50%);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -359,21 +359,20 @@ ul.list-check li::before {
 	font-size: 60px;
 	line-height: 80px;
 	margin-bottom: 16px;
-	color: #52b3d9;
+	color: #e0eafb;
 }
 .intro h1 span{
-	color: #68c3a3;
+	color: #817ee100;
 }
 .intro p{
-	color: #f7f7f7;
+	color: #e0eafb;
 	margin-bottom: 40px;
 }
 
 .intro-sub {
-	color: #fff;
-	font-size: 24px;
+	color: #e0eafb;
+	font-size: 27px;
 	line-height: 32px;
-	font-weight: 700;
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 20px;
@@ -524,7 +523,9 @@ SOCIAL ICON
 .navbar-custom .navbar-nav > li.active > a {
     background: none;
     outline: 0;
-    color: #68c3a3;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .navbar-custom .navbar-brand {
@@ -693,7 +694,7 @@ Resume Timeline
     line-height: 20px;
     font-weight: 700;
     display: block;
-    color: #2c3e50;
+    color: #3d59a9;
     top: 0;
     float: left;
 }
@@ -781,7 +782,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #68c3a3;
+    background: #3055bd;
     color: #fff;
 }
 
@@ -802,7 +803,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #3055bd;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -814,7 +815,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #3055bd;
     border-left: 0;
 }
 
@@ -836,7 +837,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #3055bd;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -849,7 +850,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #3055bd;
     border-left: 0;
 }
 
@@ -870,7 +871,7 @@ Resume Timeline
 
 /* === Skill Section === */
 .skills-section {
-    background-color: #1a1e23;
+    background-color: #27292c;
     color: #fff;   
 }
 .skills-section .section-title{
@@ -908,7 +909,7 @@ Resume Timeline
 }
 
 .progress-bar {
-    background-color: #68c3a3;
+    background-color: #3d59a9;
 }
 .progress-bar span{
     position: absolute;
@@ -1056,7 +1057,7 @@ Resume Timeline
     line-height: 28px;
     font-weight: 900;
     text-transform: uppercase;
-    color: #68c3a3;
+    color: #892c2c;
 }
 
 .entry-title {
@@ -1085,8 +1086,8 @@ Resume Timeline
     text-align: center;
 }
 .entry-meta ul li a:hover{
-    background-color: #68c3a3;
-    border-color: #68c3a3;
+    background-color: #892c2c;
+    border-color: #892c2c;
     color: #FFFFFF;
 }
 
@@ -1226,7 +1227,7 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #68c3a3;
+	background-color: #3055bd;
 	display: block;
 	width: 28px;
 	height: 28px;
